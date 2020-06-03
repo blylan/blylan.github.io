@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blylan.github.io</id>
     <title>Lion dance</title>
-    <updated>2020-06-03T10:21:58.767Z</updated>
+    <updated>2020-06-03T10:33:42.700Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blylan.github.io"/>
     <link rel="self" href="https://blylan.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://blylan.github.io/images/avatar.png</logo>
     <icon>https://blylan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Lion dance</rights>
+    <entry>
+        <title type="html"><![CDATA[记录，岭南醒狮文化教学设计]]></title>
+        <id>https://blylan.github.io/post/ji-lu-ling-nan-xing-shi-wen-hua-jiao-xue-she-ji/</id>
+        <link href="https://blylan.github.io/post/ji-lu-ling-nan-xing-shi-wen-hua-jiao-xue-she-ji/">
+        </link>
+        <updated>2020-06-03T10:31:12.000Z</updated>
+        <content type="html"><![CDATA[<p>截止到6月16日将持续更新已有资料数据</p>
+<figure data-type="image" tabindex="1"><img src="https://blylan.github.io/post-images/1591180339408.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://blylan.github.io/post/hello-gridea/</id>
