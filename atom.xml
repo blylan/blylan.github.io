@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blylan.github.io</id>
     <title>Lion dance</title>
-    <updated>2020-07-31T15:27:11.002Z</updated>
+    <updated>2020-07-31T15:30:10.145Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blylan.github.io"/>
     <link rel="self" href="https://blylan.github.io/atom.xml"/>
@@ -10,4 +10,61 @@
     <logo>https://blylan.github.io/images/avatar.png</logo>
     <icon>https://blylan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Lion dance</rights>
+    <entry>
+        <title type="html"><![CDATA[个人经历]]></title>
+        <id>https://blylan.github.io/post/personal/</id>
+        <link href="https://blylan.github.io/post/personal/">
+        </link>
+        <updated>2020-06-01T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>记录部分个人经历，包括：教育观察、志愿者活动、教育实习等</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>记录部分个人经历，包括：教育观察、志愿者活动、教育实习等</p>
+<!-- more -->
+<p>🌵2016-2020：广州美术学院美术教育学院 2016艺术教育</p>
+<hr>
+<p>✍️教育观察（2017）<br>
+广州市晓园中学、广东实验中学、广州市第二少年宫<br>
+探究课题：学生对于艺术课程的学习动机<br>
+已记载听课记录：4份，已记载采访访谈：5份，调查问卷：1份</p>
+<p><em>广州市晓园中学-美术课课堂</em><br>
+<img src="https://blylan.github.io/post-images/1591671977618.png" alt="" loading="lazy"></p>
+<p><em>广东实验中学-版画美术课</em><br>
+<img src="https://blylan.github.io/post-images/1591672186610.png" alt="" loading="lazy"></p>
+<p><em>广州市第二少年宫-美术小班-幼儿园</em><br>
+<img src="https://blylan.github.io/post-images/1591671794475.png" alt="" loading="lazy"></p>
+<p><em>部分教育观察听课记录</em><br>
+<img src="https://blylan.github.io/post-images/1591671023353.png" alt="" loading="lazy"></p>
+<hr>
+<p>🎈参与志愿活动（2017-2020）<br>
+广东“i志愿”志愿者，小匡艺术志愿者，广州美术学院青年志愿者行动指导中心志愿者</p>
+<figure data-type="image" tabindex="1"><img src="https://blylan.github.io/post-images/1591678798836.png" alt="" loading="lazy"></figure>
+<p>1.第二期快乐童行钟村社区-广东广州市番禺区钟村社区<br>
+（静物写生、线描）</p>
+<p>2.“艺蕴于民，艺同成长”艺术为民青少年美术义教活动-广东广州市番禺区新造镇谷围新村<br>
+（趣味美术课，创意书画、你画我猜、趣味粘土）</p>
+<p>3.艺术为民社区义教活动-广东广州市番禺区南村镇家庭综合服务中心<br>
+（秘密花园、趣味粘土、创意书画）</p>
+<p>4.快乐童行 | 朋克世界-广东广州市天河区棠下村家庭综合服务中心<br>
+（朋克风格的审美意识）</p>
+<p>5.艺术为民活动-广东广州市越秀区东山口启明二马路10号后座<br>
+（帮助障碍儿童做出属于他们的母亲节礼物，献给母亲）</p>
+<p>6.快乐童行 棠下站-广东广州市天河区棠下街棠德西街1-9号<br>
+（漫画）<br>
+...</p>
+<hr>
+<p>📚教育实习（2019.0422-0524）<br>
+广州市晓园中学，初二年级（1-2-3-4-5）<br>
+教学课时：12节，编写教案：3节，听课：12节，主题班会：1节，课外辅导：3节</p>
+<p><em>书籍封面设计课程</em><br>
+<img src="https://blylan.github.io/post-images/1591680445598.png" alt="" loading="lazy"></p>
+<p><em>黑白木刻版画欣赏课程</em><br>
+<img src="https://blylan.github.io/post-images/1591680638764.png" alt="" loading="lazy"></p>
+<p><em>课外兴趣小组：轻粘土-校园里的小伙伴课程</em><br>
+<img src="https://blylan.github.io/post-images/1591680969636.png" alt="" loading="lazy"></p>
+<p><em>主题班会：梦想</em><br>
+<img src="https://blylan.github.io/post-images/1591681402208.png" alt="" loading="lazy"><br>
+观看视频（2017年影视课程结课《现实》微纪录片）<br>
+<code>《现实》简介： 对 10 个左右不同阶层、不同年龄、不同职业的人进行采访，了解他们在学业、事业、爱情、生活等方面的状态，探求他们对理想与现实的理解和态度。</code></p>
+]]></content>
+    </entry>
 </feed>
