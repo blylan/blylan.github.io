@@ -1,235 +1,240 @@
-
-<!DOCTYPE html>
 <html>
-  <head>
-    
-<meta charset="utf-8" >
-
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>课程教学 | Lion dance</title>
-<meta name="description" content="与狮相伴，醒狮文化教学记录">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://blylan.github.io/favicon.ico?v=1597209985399">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://blylan.github.io/favicon.ico?v=1597210147012">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blylan.github.io/styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
 
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168919282-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-168919282-1');
+    </script>
 
 
-
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://blylan.github.io">
-        <img class="avatar" src="https://blylan.github.io/images/avatar.png?v=1597209985399" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://blylan.github.io">
-        <h1 class="site-title">Lion dance</h1>
-      </a>
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <div class="main-content">
+        <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Lion dance
+        </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
     </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-
+</nav>
         <div class="current-tag-container">
-          <h2 class="title">
-            <i class="icon icon-pricetags-outline"></i> 课程教学
-          </h2> 
+            <h2 class="title gt-c-content-color-first">
+                #课程教学
+            </h2>
         </div>
-
+        <div class="post-list-container">
+    <div class="post-inner">
         
-<section class="post-item">
-    <div class="content">
-      <a href="https://blylan.github.io/post/003/">
-        <h2 class="post-title">与狮相伴-第三章</h2>
-      </a>
-      <div class="post-abstract">
-        <p>情感游戏，手指活动，肢体活动</p>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://blylan.github.io/post/003/">
+                            <span class="post-title gt-c-content-color-first">与狮相伴-第三章</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <p>情感游戏，手指活动，肢体活动</p>
 
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2020-06-05</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://blylan.github.io/tag/TagBoRvmI/">
-                课程教学
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-06-05 ·
+                        </time>
+                        
+                            <a href="https://blylan.github.io/tag/TagBoRvmI/" class="post-tag">
+                                # 课程教学
+                            </a>
+                        
+                    </div>
+                </div>
                 
-              </a>
-            
-          </span>
+                    <a href="https://blylan.github.io/post/003/" class="post-feature-image"
+                       style="background-image: url('https://blylan.github.io/post-images/003.jpg')">
+                    </a>
+                
+            </div>
         
-      </div>
-    </div>
-    
-      <a href="https://blylan.github.io/post/003/">
-        <div class="feature-container" style="background-image: url('https://blylan.github.io/post-images/003.jpg')">
-        </div>
-      </a>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://blylan.github.io/post/002/">
-        <h2 class="post-title">与狮相伴-第二章</h2>
-      </a>
-      <div class="post-abstract">
-        <p>完整醒狮形象，了解现代醒狮造型，创意造型设计<br>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://blylan.github.io/post/002/">
+                            <span class="post-title gt-c-content-color-first">与狮相伴-第二章</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <p>完整醒狮形象，了解现代醒狮造型，创意造型设计<br>
 传统狮艺，舞狮活动动作<br>
 舞狮活动乐器与物品，会狮活动，云游览  谭公宝诞</p>
 
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2020-06-04</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://blylan.github.io/tag/TagBoRvmI/">
-                课程教学
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-06-04 ·
+                        </time>
+                        
+                            <a href="https://blylan.github.io/tag/TagBoRvmI/" class="post-tag">
+                                # 课程教学
+                            </a>
+                        
+                    </div>
+                </div>
                 
-              </a>
-            
-          </span>
+                    <a href="https://blylan.github.io/post/002/" class="post-feature-image"
+                       style="background-image: url('https://blylan.github.io/post-images/002.jpg')">
+                    </a>
+                
+            </div>
         
-      </div>
-    </div>
-    
-      <a href="https://blylan.github.io/post/002/">
-        <div class="feature-container" style="background-image: url('https://blylan.github.io/post-images/002.jpg')">
-        </div>
-      </a>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://blylan.github.io/post/001/">
-        <h2 class="post-title">与狮相伴-第一章</h2>
-      </a>
-      <div class="post-abstract">
-        <p>醒狮发展历史，南狮与北狮，狮头制作流程，其他地域的舞狮文化<br>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://blylan.github.io/post/001/">
+                            <span class="post-title gt-c-content-color-first">与狮相伴-第一章</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <p>醒狮发展历史，南狮与北狮，狮头制作流程，其他地域的舞狮文化<br>
 醒狮狮装，醒狮涂装，“明牙震脷”，牙齿绘制方法<br>
 花纹绘制方法，花纹造型特征，传统装饰纹样设计知识与步骤</p>
 
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2020-06-03</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://blylan.github.io/tag/TagBoRvmI/">
-                课程教学
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-06-03 ·
+                        </time>
+                        
+                            <a href="https://blylan.github.io/tag/TagBoRvmI/" class="post-tag">
+                                # 课程教学
+                            </a>
+                        
+                    </div>
+                </div>
                 
-              </a>
-            
-          </span>
+                    <a href="https://blylan.github.io/post/001/" class="post-feature-image"
+                       style="background-image: url('https://blylan.github.io/post-images/001.jpg')">
+                    </a>
+                
+            </div>
         
-      </div>
     </div>
+</div>
+        <div class="pagination-container">
     
-      <a href="https://blylan.github.io/post/001/">
-        <div class="feature-container" style="background-image: url('https://blylan.github.io/post-images/001.jpg')">
-        </div>
-      </a>
     
-  </section>
-
-
-<div class="pagination-container">
-  
-  
 </div>
 
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">与狮相伴，醒狮文化教学记录</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://blylan.github.io/atom.xml" target="_blank">RSS</a>
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">与狮相伴，醒狮文化教学记录</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://blylan.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
 </div>
 
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+    hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>
